@@ -12,9 +12,7 @@ If you would like to perform this method with your own datasets, you need to pro
 
 "CFR.m" is the code of Collaborative Filtering algorithm used in CFNBC.
 
-
-
 # Status
 
-Contacts
+# Contacts
 If there are any bugs during you run our code, please email to jingwenyu18@gmail.com
