@@ -3,4 +3,3 @@
 load('dsim');
 [recomm_md,recomm_ml]=CFR(new_md_association,new_ml_association);
 F=CFNBC(new_ml_association,new_md_association,recomm_ml,recomm_md,M,0.05,dsim);    
-save F F;
