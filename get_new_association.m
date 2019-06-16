@@ -1,9 +1,9 @@
 function [union_miRNA,L_in_ml,D_in_md,new_ml,new_md,new_ld,new_ml_association,new_md_association,new_ld_association]=get_new_association
     
 
-    [~,ml]=xlsread('../data_2018.9.30/miRNA_lncRNA.xlsx');
-    [~,md]=xlsread('../data_2018.9.30/miRNA_disease.xlsx');
-    [~,ld]=xlsread('../data_2018.9.30/lncRNA_disease.xlsx');
+    [~,ml]=xlsread('../data/miRNA_lncRNA.xlsx');
+    [~,md]=xlsread('../data/miRNA_disease.xlsx');
+    [~,ld]=xlsread('../data/lncRNA_disease.xlsx');
     L_in_ml = unique(ml(:,2));
     D_in_md  = unique(md(:,2));
     union_miRNA = union(ml(:,1),md(:,1));
